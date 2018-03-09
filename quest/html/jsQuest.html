@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div id="quest1">
+        <h3>Question 1</h3>
+        <p>
+            you are on a biz trip and travelling from one city to   another. you have a stack of unsorted flight
+            boarding passes. only departure city and destination city are on the boarding pass. how do you find the
+            first departure city and your final destination city, write the solution in javascript.
+        </p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#quest1Sol" aria-expanded="false" aria-controls="quest1Sol">
+            Solution
+        </button>
+        <div class="collapse" id="quest1Sol">
+            <div class="well">
+                <div>
+                    <h4>Solution 1</h4>
+                    <pre><code id="quest1Sol1"> </code></pre>
+                    <div>Result: <span id="quest1Sol1Res"></span></div>
+                </div>
+            </div>
+            <div class="well">
+                <div>
+                    <h4>Solution 2 - CareerCup</h4>
+                    <div>Pop the flight boarding passes one at a time. Create a hash table of String to Integer.
+                        We're going to map the city to the net in and out. For departure, decrease value of net in and out,
+                        for arrival, increase value of net in and out. At the end, scan through the hash table to find +1,
+                        which is the destination, and -1, which is the departure.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="quest2">
+        <h3>Question 2</h3>
+        <p>
+            Write a function to determine if a string is a number without using any built-in function.
+        </p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#quest2Sol" aria-expanded="false" aria-controls="quest1Sol">
+            Solution
+        </button>
+        <div class="collapse" id="quest2Sol">
+            <div class="well">
+                <div>
+                    <h4>Solution 1</h4>
+                    <pre><code id="quest2Sol1"> </code></pre>
+                    <div>Result: <span id="quest2Sol1Res"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="quest3">
+        <h3>Question 3</h3>
+        <p>Does JavaScript has inheritance? Can you override in JavaScript?</p>
+    </div>
+<div id="browserInfo" style="margin-top: 50px;"></div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="../js/jsSol.js"></script>
+</body>
+</html>
